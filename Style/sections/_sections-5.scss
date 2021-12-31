@@ -1,9 +1,68 @@
-.section-4 {
+.section-5 {
     height: 890px;
     padding: 78px 283px 0 200px;
+    background: #F4F5F7;
     
     @media (max-width: 1440px) {
         padding: 40px 200px 0 200px;
     }
+    h1{
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px;
+        margin-bottom: 8px;
+    }
+    h3{
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+    .text-box-5{
+        display: flex;
+        gap: 30px;
+        div{
+            width: 350px;
+            height: 192px;
+            background: white;
+            border-radius: 20px;
+            text-align: center;
+            padding: 23px 22px 13px 22px;
+            margin-bottom: 29px;
+            h1{
+                font-size: 22px;
+            }
+         
+        }
+    }
+    .ava-box-5{
+        display: flex;
+        padding: 0 100px;
+        gap: 200px;
+        text-align: center;
+        font-size: 14px;
+        h4{
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+    }
 
+}
+footer{
+    display: flex;
+    padding: 92px 199px;
+    background: #000;
+    color: white;
+    justify-content: space-between;
+    .foter-text{
+        display: flex;
+        gap: 10px;
+        margin: 12px 0 26px 0;
+    }
+    h3{
+        margin:50px 0 9px 0;
+    }
+    img{
+        margin-right: 10px;
+    }
 }
