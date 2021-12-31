@@ -1,0 +1,104 @@
+.section-3 {
+    height: 1013px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FE724C;
+    padding: 78px 283px 0 200px;
+    
+    @media (max-width: 1440px) {
+        padding: 40px 200px 0 200px;
+    }
+
+    .sec-3-text {
+
+        h1 {
+            font-size: 40px;
+            color: #FFFFFF;
+            margin-bottom: 24px;
+        }
+
+        hr {
+            width: 65px;
+            border: 1px solid #FFFFFF;   
+            background-color: #FFFFFF;   
+            height: 0px;
+            margin-bottom: 100px;
+        }
+
+        .card-1 {
+            display: flex;
+            align-items: center;
+            gap: 35px;
+            margin-bottom: 65px;
+
+            img {
+                background: #FFFFFF;
+                padding: 40px;
+                border-radius: 50%;
+            }
+
+            h2 {
+                font-size: 20px;
+                color: #FFFFFF;
+                margin-bottom: 12px;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 22px;
+                color: #FFFFFF;
+            }
+        }
+
+        .card-2 {
+            display: flex;
+            align-items: center;
+            gap: 35px;
+            margin-bottom: 65px;
+
+            img {
+                background: #FFFFFF;
+                padding: 40px;
+                border-radius: 50%;
+            }
+
+            h2 {
+                font-size: 20px;
+                color: #FFFFFF;
+                margin-bottom: 12px;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 22px;
+                color: #FFFFFF;
+            }
+        }
+
+        .card-3 {
+            display: flex;
+            align-items: center;
+            gap: 35px;
+            margin-bottom: 65px;
+
+            img {
+                background: #FFFFFF;
+                padding: 40px;
+                border-radius: 50%;
+            }
+
+            h2 {
+                font-size: 20px;
+                color: #FFFFFF;
+                margin-bottom: 12px;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 22px;
+                color: #FFFFFF;
+            }
+        }
+    }
+}

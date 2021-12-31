@@ -1,0 +1,43 @@
+.section-4 {
+    height: 890px;
+    padding: 78px 283px 0 200px;
+    
+    @media (max-width: 1440px) {
+        padding: 40px 200px 0 200px;
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 22px;
+    }
+
+    hr {
+        width: 65px;
+        margin: auto;
+        border: 1px solid #FE724C;   
+        background-color: #FE724C;   
+        height: 0px;
+        margin-bottom: 100px;
+    }
+
+    .left {
+        position: absolute;
+        margin-top: 300px;
+    }
+
+    .right {
+        position: absolute;
+        margin-top: 300px;
+        margin-left: 1400px;
+    }
+
+    .sec-4-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 90px;
+    }
+}
